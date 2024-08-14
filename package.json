@@ -1,0 +1,11 @@
+{
+  "name": "flowchart-preview-monorepo",
+  "private": "true",
+  "scripts": {
+    "build": "pnpm --filter flowchart-preview run build",
+    "dev": "pnpm --filter vite-project run dev"
+  },
+  "dependencies": {
+    "prettier": "2.8.8"
+  }
+}

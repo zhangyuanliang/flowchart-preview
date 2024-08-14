@@ -1,0 +1,31 @@
+{
+  "name": "vite-project",
+  "version": "0.0.1",
+  "description": "flowchart-preview使用Demo",
+  "main": "index.js",
+  "type": "module",
+  "private": false,
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "https://github.com/zhangyuanliang",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "path": "^0.12.7",
+    "pinia": "^2.1.7",
+    "query-string": "^8.1.0",
+    "flowchart-preview": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/mockjs": "^1.0.10",
+    "cross-env": "^7.0.3",
+    "less": "^4.2.0",
+    "mockjs": "^1.1.0",
+    "unplugin-auto-import": "^0.17.5",
+    "unplugin-vue-components": "^0.26.0"
+  }
+}
