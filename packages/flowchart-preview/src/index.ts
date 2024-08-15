@@ -1,7 +1,7 @@
 
 import type { App, Plugin } from 'vue'
 import FlowchartPreview from './flowchart-preview.vue'
-export * from './types.d'
+export * from './types'
 
 export interface PluginOptions {
   name?: string

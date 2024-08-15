@@ -53,7 +53,7 @@
 
 <script lang="ts" setup>
 import { computed } from 'vue'
-import type { NodeConfig } from './types.d'
+import type { NodeConfig } from './types'
 
 defineOptions({
   name: 'FlowChart'
@@ -68,7 +68,6 @@ const props = defineProps({
 
 const emit = defineEmits(['nodeClick'])
 
-/* 定义一个名为 bgColor 的计算属性，用类型断言将其定义为一个字符串 */
 const bgColor = computed(() => {
   const colorMap = {
     pending: '92, 114, 230',
@@ -78,7 +77,6 @@ const bgColor = computed(() => {
   return colorMap[props.nodeConfig.status as keyof typeof colorMap] || colorMap.pending
 })
 
-/* 定义一个名为 nodeClick 的方法 */
 const nodeClick = (nodeConfig: NodeConfig) => {
   emit('nodeClick', nodeConfig)
 }

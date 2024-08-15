@@ -18,7 +18,7 @@
 
 <script setup lang="ts">
 import { FlowchartPreview } from 'flowchart-preview'
-import type { NodeConfig } from 'flowchart-preview/dist/types.d'
+import type { NodeConfig } from 'flowchart-preview/dist/index.d'
 import { nodeData } from './data'
 import { ref } from 'vue'
 

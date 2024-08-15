@@ -1,6 +1,6 @@
 {
   "name": "flowchart-preview",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "license": "MIT",
   "description": "A simple flowchart preview for Vue3",
   "author": "https://github.com/zhangyuanliang",
